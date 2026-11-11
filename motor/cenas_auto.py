@@ -13,7 +13,7 @@ SVG_NOMES = ["XICARA", "RELOGIO", "POTE", "VIDRO_SANG", "TERMOMETRO", "CAIXA", "
              "LUPA", "FACA", "TACA", "PERGAMENA", "BORSA", "CANDELA"]                       # objetos de mão
 EXTRA_NOMES = ["CARTOLA", "BONE", "FONE", "LENCO", "SUJEIRA", "COROA", "BARBA", "LOUROS"]  # coisas na cabeça
 DESENHOS = {"CACCA": (CACCA, "0 0 200 200"), "CACCA_BRANCA": (CACCA_BRANCA, "0 0 200 200"), "TOPO": (TOPO, "0 0 220 200"), "MAIALE": (MAIALE, "0 0 220 200"),
-            "SGABELLO": (SGABELLO, "0 0 200 200"), "LAPIDE": (LAPIDE, "0 0 200 200"), "MACHADO": (MACHADO, "0 0 200 200"), "CANE": (CANE, "0 0 200 200"),
+            "SGABELLO": (SGABELLO, "0 0 200 200"), "LAPIDE": (LAPIDE_RIP, "0 0 200 200"), "MACHADO": (MACHADO, "0 0 200 200"), "CANE": (CANE, "0 0 200 200"),
             "GAS": (GAS, "0 0 200 200"), "PODIO": (PODIO, "0 0 200 200"), "GOTA": (GOTA, "0 0 110 150"), "PIPI": (PIPI, "0 0 110 150"), "UVA": (UVA, "0 0 170 200"),
             "CORACAO": (CORACAO, "0 0 120 120"), "COROA": (COROA, "70 -40 100 70"), "BORSA": (BORSA, "-34 -26 68 60"), "CANDELA": (CANDELA, "-40 -80 80 84"),
             "TACA": (TACA, "-24 -46 48 56"), "PERGAMENA": (PERGAMENA, "-28 -40 56 60"), "LUPA": (LUPA, "-22 -44 46 54"), "RELOGIO": (RELOGIO, "-34 -66 68 76")}
@@ -103,5 +103,5 @@ if EP.get("idioma", "it") == "en":
         (("candle", "night", "midnight"), CANDELA, "-40 -80 80 84"), (("executed", "beheaded", "axe"), MACHADO, "0 0 200 200"),
         (("smell", "stink", "stench", "smelled"), GAS, "0 0 200 200"), (("bucket",), BALDE, "-30 -50 60 80"), (("knife",), FACA, "-20 -40 60 60"),
         (("wine", "poison", "drink"), TACA, "-24 -46 48 56"), (("dog", "dogs"), CANE, "0 0 200 200"), (("doctor", "doctors"), LUPA, "-22 -44 46 54"),
-        (("died", "dead", "death", "grave"), LAPIDE, "0 0 200 200"), (("hours", "years", "time"), RELOGIO, "-34 -60 68 72"),
+        (("died", "dead", "death", "grave"), LAPIDE_RIP, "0 0 200 200"), (("hours", "years", "time"), RELOGIO, "-34 -60 68 72"),
     ]

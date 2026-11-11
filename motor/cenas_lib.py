@@ -1,3 +1,4 @@
+import re
 # Episódio 1 (italiano) — "Com'era Fare il Lavoro Più Schifoso della Storia"
 # Rodado pelo motor.py (exec): todas as funções do motor estão disponíveis aqui.
 
@@ -118,6 +119,7 @@ PERGAMENA = f'<rect x="-22" y="-34" width="44" height="50" fill="#f5e6c4" stroke
 BORSA = f'<path d="M-18 -10 Q-26 24 0 26 Q26 24 18 -10 Z" fill="#c9a26b" stroke="{K}" stroke-width="4"/><path d="M-10 -12 L10 -12" stroke="{K}" stroke-width="5"/><text x="0" y="16" text-anchor="middle" font-family="Bangers" font-size="22">$</text>'
 CANDELA = f'<rect x="-6" y="-30" width="12" height="30" fill="#f5ecd0" stroke="{K}" stroke-width="3"/><path d="M0 -44 Q8 -36 0 -30 Q-8 -36 0 -44 Z" fill="#ffb703"/><circle cx="0" cy="-36" r="36" fill="#ffd36b" opacity=".2"/>'
 LAPIDE = f'<path d="M30 190 L30 70 Q30 20 100 20 Q170 20 170 70 L170 190 Z" fill="#9aa0a6" stroke="{K}" stroke-width="8"/><text x="100" y="100" text-anchor="middle" font-family="Bangers" font-size="40" fill="#333">RICHARD</text><text x="100" y="146" text-anchor="middle" font-family="Bangers" font-size="34" fill="#333">1326</text>'
+LAPIDE_RIP = re.sub(r'<text.*?</text>', '', LAPIDE) + '<text x="100" y="125" text-anchor="middle" font-family="Bangers" font-size="54" fill="#333">R.I.P.</text>'
 MACHADO = f'<rect x="92" y="20" width="16" height="170" fill="#6b3a1e" stroke="{K}" stroke-width="5"/><path d="M108 30 Q190 40 180 110 Q140 100 108 96 Z" fill="#9aa3ad" stroke="{K}" stroke-width="6"/>'
 CANE = f'<ellipse cx="100" cy="120" rx="56" ry="30" fill="#c8a26b" stroke="{K}" stroke-width="6"/><circle cx="156" cy="92" r="26" fill="#c8a26b" stroke="{K}" stroke-width="6"/><ellipse cx="146" cy="78" rx="9" ry="16" fill="#8a5a2b" stroke="{K}" stroke-width="4"/><circle cx="164" cy="88" r="4" fill="{K}"/><circle cx="180" cy="98" r="5" fill="{K}"/><path d="M60 146 L56 180 M86 148 L86 182 M116 148 L118 182 M140 144 L144 178" stroke="{K}" stroke-width="7"/><path d="M44 110 Q20 90 30 70" stroke="{K}" stroke-width="7" fill="none"/>'
 GAS = "".join(f'<circle cx="{x}" cy="{y}" r="{r}" fill="#9acd32" opacity=".55"/>' for x, y, r in [(40, 140, 40), (90, 110, 50), (150, 130, 44), (110, 60, 36)])
@@ -164,7 +166,7 @@ ICONES = [
     (("esaminava", "controllava", "controllare", "dimostrato"), LUPA, "-22 -44 46 54"),
     (("accusato", "accusa", "titoli", "terre"), PERGAMENA, "-28 -40 56 60"),
     (("febbre",), TERMOMETRO, "-24 -40 40 48"),
-    (("annegò",), LAPIDE, "0 0 200 200"),
+    (("annegò",), LAPIDE_RIP, "0 0 200 200"),
     (("sgabello",), SGABELLO, "0 0 200 200"),
     (("acino", "uva"), UVA, "0 0 170 200"),
     (("orologio", "ore", "anni", "mesi"), RELOGIO, "-34 -60 68 72"),

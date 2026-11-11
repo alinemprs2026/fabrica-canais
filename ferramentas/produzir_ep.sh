@@ -28,5 +28,9 @@ echo "== boca";   python work/boca.py
 echo "== trilha"; python work/trilha.py
 echo "== cenas";  python work/motor.py work/cenas_auto.py
 echo "== render"; npx --yes hyperframes@0.9.28 render -o "$SAIDA"
+python - <<'PY' && python work/thumb.py "${SAIDA%.mp4}-thumb.png" || echo "(sem thumb)"
+import json, sys
+sys.exit(0 if json.load(open("work/episodio.json", encoding="utf-8")).get("formato") == "longo" else 1)
+PY
 cp work/episodio.json "${SAIDA%.mp4}.json"
 echo "== pronto: $SAIDA"
