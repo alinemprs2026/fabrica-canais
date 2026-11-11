@@ -23,10 +23,20 @@ async def main():
         if os.path.exists(cache) and json.load(open(cache, encoding='utf-8'))['txt'] == txt:
             words = json.load(open(cache, encoding='utf-8'))['words']
         else:
-            with open(f'work/voz/l{i:03d}.mp3', 'wb') as f:
-                async for ch in edge_tts.Communicate(txt, VOZ, rate=RATE, boundary='WordBoundary').stream():
-                    if ch['type'] == 'audio': f.write(ch['data'])
-                    elif ch['type'] == 'WordBoundary': words.append([ch['text'], ch['offset']/1e7, (ch['offset']+ch['duration'])/1e7])
+            for tent in range(8):  # o serviço grátis às vezes recusa pedidos seguidos: tenta de novo com pausa crescente
+                try:
+                    words = []
+                    with open(f'work/voz/l{i:03d}.mp3', 'wb') as f:
+                        async for ch in edge_tts.Communicate(txt, VOZ, rate=RATE, boundary='WordBoundary').stream():
+                            if ch['type'] == 'audio': f.write(ch['data'])
+                            elif ch['type'] == 'WordBoundary': words.append([ch['text'], ch['offset']/1e7, (ch['offset']+ch['duration'])/1e7])
+                    if words: break
+                except Exception as e:
+                    print(f'  frase {i}: tentativa {tent + 1} falhou ({type(e).__name__})', flush=True)
+                await asyncio.sleep(1.5 * (tent + 1))
+            else:
+                raise RuntimeError(f'voz falhou na frase {i}: {txt}')
+            await asyncio.sleep(0.4)
             json.dump({'txt': txt, 'words': words}, open(cache, 'w', encoding='utf-8'), ensure_ascii=False)
         sil, D = silencios(f'work/voz/l{i:03d}.mp3')
         # trechos de fala = complemento dos silêncios
