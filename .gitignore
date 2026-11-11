@@ -1,0 +1,4 @@
+saida/
+*.wav
+__pycache__/
+.env

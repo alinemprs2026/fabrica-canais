@@ -1,0 +1,31 @@
+name: teste-nuvem
+on:
+  workflow_dispatch:
+jobs:
+  short:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Instalar ferramentas
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+          pip install -q edge-tts numpy
+      - name: Teste da imagem gratis (Pollinations)
+        continue-on-error: true
+        run: |
+          curl -s -o teste_img.jpg -w "status %{http_code}, %{size_download} bytes\n" "https://image.pollinations.ai/prompt/medieval%20castle%20cartoon?width=1024&height=576&nologo=true&seed=7"
+      - name: Produzir o short de teste
+        run: |
+          chmod +x ferramentas/produzir.sh
+          time ferramentas/produzir.sh canais/mr-squarington/teste/roteiro.txt canais/mr-squarington/teste/cenas.py saida/teste-short.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: teste-short
+          path: |
+            saida/teste-short.mp4
+            teste_img.jpg
