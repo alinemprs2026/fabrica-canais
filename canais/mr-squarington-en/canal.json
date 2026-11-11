@@ -1,0 +1,33 @@
+{
+ "nome": "Mr. Squarington (EN)",
+ "idioma": "en",
+ "voz": "en-GB-RyanNeural",
+ "rate": "+8%",
+ "producao": {
+  "longo": 1,
+  "short": 1
+ },
+ "banco_temas": "acervo/temas_en.json",
+ "persona": "Mr. Squarington: British gentleman with a square head, blue suit, white streak in his quiff and a gold pocket watch. Dry, deadpan humour; pretends to stay calm in front of absurd history; secretly disgusted. He is the ONLY one who speaks; everyone else only reacts with faces and body language.",
+ "bordoes": {
+  "abertura": [
+   "Good evening, round-headed citizens.",
+   "Good evening, round-headed citizens. Sit down. This one is disgusting.",
+   "Ah. Round-headed citizens. You're just in time."
+  ],
+  "fechamento": [
+   "Until next time, round-headed citizens.",
+   "Goodnight, round-headed citizens. Wash your hands."
+  ]
+ },
+ "short_faixa": "WORST JOBS IN HISTORY",
+ "janela_postagem_local": {
+  "fuso": "America/New_York",
+  "inicio": "15:00",
+  "fim": "19:00"
+ },
+ "thumb_estilos": [
+  "B",
+  "C"
+ ]
+}

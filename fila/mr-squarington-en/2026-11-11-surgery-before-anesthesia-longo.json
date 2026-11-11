@@ -1,0 +1,3265 @@
+{
+ "canal": "mr-squarington-en",
+ "idioma": "en",
+ "formato": "longo",
+ "tema": "What It Was Like to Get Surgery Before Anesthesia",
+ "titulo": "What It Was Like to Get Surgery Before Anesthesia",
+ "descricao": "London, 1840. The best surgeon in the city can cut off your leg in under three minutes. You will be awake for all of them.\n\nMr. Squarington takes you through one day as a patient before anesthesia: the brandy, the leather strap, the operating theatre full of spectators, the surgeon in a coat stiff with old blood, the infection that came after, and the day in 1846 when everything changed.\n\nAll true. All documented. Unfortunately.\n\nWould you have survived the operation, or the week after? Tell us in the comments.",
+ "tags": [
+  "surgery before anesthesia",
+  "history of surgery",
+  "robert liston",
+  "victorian medicine",
+  "medical history",
+  "history of anesthesia",
+  "ether day 1846",
+  "fanny burney",
+  "weird history",
+  "gross history",
+  "history explained",
+  "animated history",
+  "victorian london",
+  "19th century medicine",
+  "operating theatre",
+  "what it was like",
+  "dark history",
+  "funny history",
+  "history documentary animated",
+  "mr squarington"
+ ],
+ "thumb": {
+  "estilo": "C",
+  "texto": [
+   "NO",
+   "PAINKILLERS"
+  ],
+  "acao": "Mr. Squarington terrified, biting a leather strap",
+  "objeto": "GOTA"
+ },
+ "fontes": [
+  "Richard Hollingham, Blood and Guts: A History of Surgery (BBC, 2008)",
+  "Lindsey Fitzharris, The Butchering Art (2017) — Liston, operating theatres, 1846",
+  "Frances Burney, letter to Esther Burney on her 1811 mastectomy (Journals and Letters)",
+  "Massachusetts General Hospital — Ether Dome, 16 October 1846",
+  "J. Y. Simpson, Hospitalism (1869) — amputation mortality in large hospitals"
+ ],
+ "cenarios": {
+  "teatro": "1840s london surgical operating theatre, steep wooden tiered gallery of benches around a wooden operating table, sawdust floor, skylight",
+  "enfermaria": "gloomy 1840s hospital ward, rows of iron beds, dirty walls, small windows",
+  "quartinho": "tiny poor victorian bedroom, cracked walls, small bed, candle, grey morning light",
+  "taverna": "cozy victorian pub interior, wooden bar, bottles, warm lamps",
+  "boston": "1846 boston hospital amphitheater with a dome, bright, rows of seats around an operating chair"
+ },
+ "cenas": [
+  {
+   "falas": [
+    "London, 1840. The best surgeon in the city is famous for one thing.",
+    "He can cut off your leg in under three minutes."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "london",
+     "texto": "LONDON, 1840",
+     "estilo": "br"
+    },
+    {
+     "palavra": "three",
+     "texto": "UNDER 3 MINUTES",
+     "estilo": "vm",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "soco",
+     "palavra": "leg"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|You will be awake for all of them."
+   ],
+   "bg": "teatro",
+   "luz": "noite",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "chora",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "awake",
+     "texto": "AWAKE",
+     "estilo": "vm"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "awake"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Good evening, round-headed citizens.",
+    "Today, you are a patient. Before anesthesia."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "pose": "cha",
+     "prop": "XICARA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "anesthesia",
+     "texto": "BEFORE ANESTHESIA",
+     "estilo": "am"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "No gas. No injection. No count backwards from ten.",
+    "Just you, a table, and a man with a saw."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "triste",
+     "pose": "segura",
+     "x": 700
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 1280
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "gas",
+     "texto": "NO GAS",
+     "estilo": "br",
+     "x": 560
+    },
+    {
+     "palavra": "injection",
+     "texto": "NO INJECTION",
+     "estilo": "br",
+     "x": 1360
+    },
+    {
+     "palavra": "saw",
+     "texto": "A SAW.",
+     "estilo": "vm",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Let's begin your day."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "pose": "dedo",
+     "x": 960,
+     "plano": "medio"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Seven in the morning. Your big day."
+   ],
+   "titulo": {
+    "num": "7 AM",
+    "nome": "THE MORNING"
+   },
+   "bg": "quartinho",
+   "luz": "madrugada"
+  },
+  {
+   "falas": [
+    "You wake up in a tiny room. Your leg is infected. It smells. It has smelled for weeks."
+   ],
+   "bg": "quartinho",
+   "luz": "madrugada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "ombros",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "infected",
+     "texto": "INFECTED",
+     "estilo": "vm"
+    },
+    {
+     "palavra": "weeks",
+     "texto": "FOR WEEKS",
+     "estilo": "br",
+     "y": 330
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GAS",
+     "palavra": "smells"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The doctor has made his decision. The leg has to go."
+   ],
+   "bg": "quartinho",
+   "luz": "madrugada",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "aponta",
+     "x": 640
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "o",
+     "pose": "chora",
+     "x": 1280
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "go",
+     "texto": "IT HAS TO GO",
+     "estilo": "vm"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "go"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|You'd like a second opinion. The second opinion is also a saw."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "duvida",
+     "pose": "ombros",
+     "x": 960,
+     "plano": "close"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "second",
+     "texto": "SECOND OPINION",
+     "estilo": "br",
+     "x": 1400
+    }
+   ]
+  },
+  {
+   "falas": [
+    "So you prepare the only way people could.",
+    "A glass of brandy. Then another."
+   ],
+   "bg": "taverna",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "fechada",
+     "pose": "bebe",
+     "prop": "TACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "brandy",
+     "texto": "BRANDY",
+     "estilo": "am"
+    },
+    {
+     "palavra": "another",
+     "texto": "AND ANOTHER",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "If you're lucky, a few drops of laudanum. That's opium, dissolved in alcohol."
+   ],
+   "bg": "taverna",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "laudanum",
+     "texto": "LAUDANUM",
+     "estilo": "br"
+    },
+    {
+     "palavra": "opium",
+     "texto": "= OPIUM",
+     "estilo": "pt",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "It does not stop the pain. It just makes you care slightly less about it.",
+    "|Slightly."
+   ],
+   "bg": "taverna",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "duvida",
+     "boca": "o",
+     "pose": "ombros",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "slightly",
+     "texto": "SLIGHTLY.",
+     "estilo": "pt"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Nine o'clock. You arrive at the hospital."
+   ],
+   "titulo": {
+    "num": "9 AM",
+    "nome": "THE HOSPITAL"
+   },
+   "bg": "enfermaria",
+   "luz": "fria"
+  },
+  {
+   "falas": [
+    "In 1840, hospitals were not where rich people went to get better.",
+    "Rich people were operated on at home. On the kitchen table."
+   ],
+   "bg": "palacio",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#8e6b1f",
+     "cabelo": "careca",
+     "extra": [
+      "CARTOLA"
+     ],
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "cintura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "rich",
+     "texto": "THE RICH",
+     "estilo": "am"
+    },
+    {
+     "palavra": "kitchen",
+     "texto": "KITCHEN TABLE",
+     "estilo": "br",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Hospitals were for the poor. And you are very poor."
+   ],
+   "bg": "enfermaria",
+   "luz": "fria",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "triste",
+     "boca": "triste",
+     "pose": "segura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "poor",
+     "texto": "VERY POOR",
+     "estilo": "vm"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "BORSA",
+     "palavra": "poor"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The ward smells of rot, sweat and old blood.",
+    "Nobody has washed their hands. Nobody thinks they need to."
+   ],
+   "bg": "enfermaria",
+   "luz": "esgoto",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#7a8a6a",
+     "cabelo": "careca",
+     "sob": "triste",
+     "boca": "triste",
+     "x": 560,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 960,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#8a6a5a",
+     "cabelo": "longo",
+     "cc": "#3b2414",
+     "sob": "preoc",
+     "boca": "o",
+     "x": 1360,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "rot",
+     "texto": "ROT",
+     "estilo": "vm",
+     "x": 560
+    },
+    {
+     "palavra": "washed",
+     "texto": "NO HAND WASHING",
+     "estilo": "br",
+     "y": 330
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GAS",
+     "palavra": "smells"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Germs? Nobody believes in germs yet. Doctors think disease comes from bad air."
+   ],
+   "bg": "enfermaria",
+   "luz": "fria",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "dedo",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "germs",
+     "texto": "GERMS? NO.",
+     "estilo": "br"
+    },
+    {
+     "palavra": "bad",
+     "texto": "BAD AIR!",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|They are half right. The air is terrible."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 960,
+     "plano": "close"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "soco",
+     "palavra": "terrible"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Ten o'clock. Now, you wait."
+   ],
+   "titulo": {
+    "num": "10 AM",
+    "nome": "THE WAIT"
+   },
+   "bg": "enfermaria",
+   "luz": "fria"
+  },
+  {
+   "falas": [
+    "Operations happen around midday. Not for your comfort. For the light.",
+    "The theatre has a big glass roof, and the surgeon needs the sun to see what he's cutting."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#7a8a6a",
+     "cabelo": "careca",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "dedo",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "midday",
+     "texto": "MIDDAY",
+     "estilo": "am"
+    },
+    {
+     "palavra": "sun",
+     "texto": "SUNLIGHT ONLY",
+     "estilo": "br",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|So if it's a cloudy day in London... good luck."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "duvida",
+     "boca": "fechada",
+     "pose": "ombros",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "cloudy",
+     "texto": "LONDON. CLOUDY.",
+     "estilo": "pt",
+     "x": 1400
+    }
+   ]
+  },
+  {
+   "falas": [
+    "From the ward, you can hear the patient before you. Through the wall."
+   ],
+   "bg": "enfermaria",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "surpreso",
+     "boca": "o",
+     "pose": "chora",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "wall",
+     "texto": "THROUGH THE WALL",
+     "estilo": "vm"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "wall"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Some patients panicked and tried to escape. They did not get far. Remember the infected leg?"
+   ],
+   "bg": "enfermaria",
+   "luz": "fria",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "aberta",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "acao": "anda",
+   "etiquetas": [
+    {
+     "palavra": "escape",
+     "texto": "ESCAPE!",
+     "estilo": "am"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Running was not an option. Hopping was not much better."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "cintura",
+     "x": 960,
+     "plano": "close"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Meanwhile, the surgeon lays out his tools.",
+    "A knife. A saw. A hook. And a tourniquet, to squeeze the leg and slow the bleeding."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "knife",
+     "texto": "KNIFE",
+     "estilo": "br",
+     "x": 520
+    },
+    {
+     "palavra": "saw",
+     "texto": "SAW",
+     "estilo": "br",
+     "x": 960
+    },
+    {
+     "palavra": "tourniquet",
+     "texto": "TOURNIQUET",
+     "estilo": "am",
+     "x": 1400
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The handles are beautiful. Carved wood. Ivory. Little grooves everywhere.",
+    "|Perfect for collecting yesterday's patient."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "prop": "FACA",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "ivory",
+     "texto": "IVORY HANDLES",
+     "estilo": "am",
+     "x": 1400
+    },
+    {
+     "palavra": "yesterday",
+     "texto": "YESTERDAY'S PATIENT",
+     "estilo": "vm",
+     "x": 1400,
+     "y": 330,
+     "tam": 100
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Students paid fees to watch all of this. It was the best seat in medical school."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "x": 640,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f4f4f",
+     "cabelo": "curto",
+     "cc": "#222",
+     "sob": "surpreso",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 1280,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "fees",
+     "texto": "PAID TO WATCH",
+     "estilo": "br"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "BORSA",
+     "palavra": "fees"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Eleven o'clock. They call your name."
+   ],
+   "titulo": {
+    "num": "11 AM",
+    "nome": "THE THEATRE"
+   },
+   "bg": "teatro",
+   "luz": "quente"
+  },
+  {
+   "falas": [
+    "You are carried into the operating theatre. And yes, it's called a theatre for a reason."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "o",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "theatre",
+     "texto": "THEATRE",
+     "estilo": "am"
+    }
+   ],
+   "acao": "entra"
+  },
+  {
+   "falas": [
+    "Around the table, rows of wooden benches go up to the ceiling. They are full."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "surpreso",
+     "boca": "o",
+     "x": 520,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f4f4f",
+     "cabelo": "curto",
+     "cc": "#222",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "x": 800,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#6b3a3a",
+     "cabelo": "topete",
+     "cc": "#a0522d",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "x": 1110,
+     "plano": "grupo"
+    },
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "x": 1400,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "full",
+     "texto": "SOLD OUT",
+     "estilo": "vm"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Medical students. Curious gentlemen. People who simply had a free morning.",
+    "|You are the show."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "chora",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "students",
+     "texto": "STUDENTS",
+     "estilo": "br",
+     "x": 520
+    },
+    {
+     "palavra": "free",
+     "texto": "BORED PEOPLE",
+     "estilo": "br",
+     "x": 1400
+    },
+    {
+     "palavra": "show",
+     "texto": "THE SHOW",
+     "estilo": "vm",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "soco",
+     "palavra": "show"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Under the table, there's a box of sawdust. It's there to soak up the blood."
+   ],
+   "bg": "teatro",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#7a8a6a",
+     "cabelo": "careca",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "relogio",
+     "prop": "BALDE",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "sawdust",
+     "texto": "SAWDUST",
+     "estilo": "am"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GOTA",
+     "palavra": "blood"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Then the surgeon walks in."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "cintura",
+     "x": 960
+    }
+   ],
+   "acao": "anda",
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "surgeon"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "He's wearing his operating coat. It used to be black. Now it's brown, stiff and cracking."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "cintura",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "black",
+     "texto": "IT WAS BLACK",
+     "estilo": "br",
+     "x": 1400
+    },
+    {
+     "palavra": "cracking",
+     "texto": "NOW: CRUSTY",
+     "estilo": "vm",
+     "x": 1400,
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "That's dried blood, from years of operations. A dirty coat meant a busy surgeon.",
+    "Surgeons were proud of it."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "dried",
+     "texto": "DRIED BLOOD",
+     "estilo": "vm"
+    },
+    {
+     "palavra": "proud",
+     "texto": "SO PROUD",
+     "estilo": "am",
+     "y": 330
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GOTA",
+     "palavra": "blood"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "proud"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|You are not proud of it."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 960,
+     "plano": "close"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Four strong men grab your arms and legs. They're called dressers.",
+    "Their job is to hold you down. No matter what."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#7a8a6a",
+     "cabelo": "careca",
+     "sob": "bravo",
+     "boca": "fechada",
+     "pose": "segura",
+     "x": 560
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "alto",
+     "x": 960
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#6a5a7a",
+     "cabelo": "curto",
+     "cc": "#222",
+     "sob": "bravo",
+     "boca": "fechada",
+     "pose": "segura",
+     "x": 1360
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "dressers",
+     "texto": "THE DRESSERS",
+     "estilo": "br"
+    },
+    {
+     "palavra": "hold",
+     "texto": "HOLD HIM DOWN",
+     "estilo": "vm",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Someone puts a leather strap between your teeth. Bite this."
+   ],
+   "bg": "teatro",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "fechada",
+     "pose": "chora",
+     "x": 960,
+     "plano": "close"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "bite",
+     "texto": "BITE THIS",
+     "estilo": "am",
+     "x": 1420
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|That's the anesthesia."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "duvida",
+     "boca": "fechada",
+     "pose": "ombros",
+     "x": 960,
+     "plano": "close"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "anesthesia",
+     "texto": "THE ANESTHESIA",
+     "estilo": "pt",
+     "x": 1420
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Eleven oh two."
+   ],
+   "titulo": {
+    "num": "11:02",
+    "nome": "THE CUT"
+   },
+   "bg": "teatro",
+   "luz": "noite"
+  },
+  {
+   "falas": [
+    "The most famous surgeon in London was Robert Liston. Tall, strong, and incredibly fast."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "cintura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "liston",
+     "texto": "ROBERT LISTON",
+     "estilo": "br"
+    },
+    {
+     "palavra": "fast",
+     "texto": "VERY FAST",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "He often held the bloody knife between his teeth, so both hands were free for the saw."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "bravo",
+     "boca": "fechada",
+     "pose": "alto",
+     "prop": "FACA",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "teeth",
+     "texto": "KNIFE IN HIS TEETH",
+     "estilo": "vm",
+     "x": 1400,
+     "tam": 100
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "soco",
+     "palavra": "teeth"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Speed was everything. The faster the cut, the less you suffered, and the less blood you lost."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "speed",
+     "texto": "SPEED",
+     "estilo": "vm"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "RELOGIO",
+     "palavra": "faster"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The story goes that he'd shout to the crowd: time me, gentlemen."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "time",
+     "texto": "TIME ME, GENTLEMEN!",
+     "estilo": "am",
+     "tam": 110
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "gentlemen"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "And they did. Pocket watches came out all around the room."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "o",
+     "pose": "relogio",
+     "prop": "RELOGIO",
+     "x": 560,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f4f4f",
+     "cabelo": "curto",
+     "cc": "#222",
+     "sob": "surpreso",
+     "boca": "o",
+     "pose": "relogio",
+     "prop": "RELOGIO",
+     "x": 960,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#6b3a3a",
+     "cabelo": "topete",
+     "cc": "#a0522d",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "RELOGIO",
+     "x": 1360,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "watches",
+     "texto": "TICK TOCK",
+     "estilo": "br"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|I would also be timing it. From very far away."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "relogio",
+     "prop": "RELOGIO",
+     "x": 960,
+     "plano": "medio"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The knife goes in. Then the saw."
+   ],
+   "bg": "teatro",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "bravo",
+     "boca": "fechada",
+     "pose": "alto",
+     "prop": "FACA",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "knife",
+     "texto": "KNIFE",
+     "estilo": "br",
+     "x": 520
+    },
+    {
+     "palavra": "saw",
+     "texto": "SAW",
+     "estilo": "vm",
+     "x": 1400
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "knife"
+    },
+    {
+     "tipo": "treme",
+     "palavra": "saw"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "You scream. Everyone expected you to scream. Screaming was normal."
+   ],
+   "bg": "teatro",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "alto",
+     "x": 960,
+     "plano": "close"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "scream",
+     "texto": "AAAAAH!",
+     "estilo": "vm",
+     "x": 1440
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "scream"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Liston could take off a leg in about two and a half minutes."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "half",
+     "texto": "2.5 MINUTES",
+     "estilo": "am"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "RELOGIO",
+     "palavra": "minutes"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "There's even a legend that once, in his hurry, he took off his assistant's fingers too."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "surpreso",
+     "boca": "o",
+     "pose": "ombros",
+     "x": 640
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#7a8a6a",
+     "cabelo": "careca",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "chora",
+     "x": 1280
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "legend",
+     "texto": "LEGEND",
+     "estilo": "pt"
+    },
+    {
+     "palavra": "fingers",
+     "texto": "HIS FINGERS?!",
+     "estilo": "vm",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "fingers"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Most historians think that story is made up.",
+    "|But nobody in that room would have been surprised."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "duvida",
+     "boca": "fechada",
+     "pose": "dedo",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "made",
+     "texto": "PROBABLY FAKE",
+     "estilo": "br",
+     "x": 1400
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Two and a half minutes later, it's over. The leg is gone. You're still here."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "triste",
+     "boca": "triste",
+     "pose": "baixo",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "over",
+     "texto": "IT'S OVER",
+     "estilo": "am"
+    },
+    {
+     "palavra": "still",
+     "texto": "STILL ALIVE",
+     "estilo": "br",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Congratulations. That was the easy part."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "acena",
+     "x": 960,
+     "plano": "close"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "easy",
+     "texto": "THE EASY PART",
+     "estilo": "vm",
+     "x": 1420
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Now the surgeon has to stop the bleeding. He ties each artery shut with a silk thread."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "segura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "silk",
+     "texto": "SILK THREAD",
+     "estilo": "br"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Then he leaves the long ends of the thread hanging out of the wound.",
+    "|On purpose."
+   ],
+   "bg": "teatro",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "surpreso",
+     "boca": "o",
+     "pose": "chora",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "hanging",
+     "texto": "HANGING OUT",
+     "estilo": "vm"
+    },
+    {
+     "palavra": "purpose",
+     "texto": "ON PURPOSE",
+     "estilo": "pt",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The idea was that after a few days, the thread would rot, and could be pulled out."
+   ],
+   "bg": "enfermaria",
+   "luz": "esgoto",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "aponta",
+     "x": 640
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 1280
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "rot",
+     "texto": "LET IT ROT",
+     "estilo": "vm"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GAS",
+     "palavra": "rot"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Rot. On purpose. Inside you."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 960,
+     "plano": "close"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "And honestly? That was progress.",
+    "Three hundred years earlier, gunshot wounds were treated with boiling oil."
+   ],
+   "bg": "vilanoite",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#4a3a2a",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "BARBA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "relogio",
+     "prop": "POTE",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "progress",
+     "texto": "PROGRESS!",
+     "estilo": "am"
+    },
+    {
+     "palavra": "boiling",
+     "texto": "BOILING OIL",
+     "estilo": "vm",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "boiling"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Until 1537, when a French army surgeon, Ambroise Paré, ran out of oil in the middle of a battle."
+   ],
+   "bg": "vilanoite",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#1f3a6b",
+     "cabelo": "careca",
+     "extra": [
+      "BARBA"
+     ],
+     "sob": "preoc",
+     "boca": "o",
+     "pose": "ombros",
+     "prop": "POTE",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "ambroise",
+     "texto": "AMBROISE PARÉ",
+     "estilo": "br"
+    },
+    {
+     "palavra": "ran",
+     "texto": "NO MORE OIL",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "He used a cheap mix of egg yolk, rose oil and turpentine instead. And he couldn't sleep, sure his patients would die."
+   ],
+   "bg": "quartinho",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#1f3a6b",
+     "cabelo": "careca",
+     "extra": [
+      "BARBA"
+     ],
+     "sob": "preoc",
+     "boca": "triste",
+     "pose": "chora",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "egg",
+     "texto": "EGG YOLK?!",
+     "estilo": "am"
+    },
+    {
+     "palavra": "sleep",
+     "texto": "NO SLEEP",
+     "estilo": "br",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The next morning, they were doing better than the ones he had boiled."
+   ],
+   "bg": "vilanoite",
+   "luz": "madrugada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#1f3a6b",
+     "cabelo": "careca",
+     "extra": [
+      "BARBA"
+     ],
+     "sob": "surpreso",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "better",
+     "texto": "IT WORKED",
+     "estilo": "am"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "better"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Medicine, ladies and gentlemen. Sometimes progress is just running out of oil."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "dedo",
+     "x": 960,
+     "plano": "medio"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The next week."
+   ],
+   "titulo": {
+    "num": "DAY 7",
+    "nome": "THE INFECTION"
+   },
+   "bg": "enfermaria",
+   "luz": "esgoto"
+  },
+  {
+   "falas": [
+    "In 1840, the operation wasn't the real killer. What came after was."
+   ],
+   "bg": "enfermaria",
+   "luz": "esgoto",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "preoc",
+     "boca": "o",
+     "pose": "segura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "killer",
+     "texto": "THE REAL KILLER",
+     "estilo": "vm"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "LAPIDE",
+     "palavra": "after"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Nobody cleaned the instruments. The same knife moved from patient to patient.",
+    "Sometimes, it was wiped. On the coat."
+   ],
+   "bg": "teatro",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "same",
+     "texto": "SAME KNIFE",
+     "estilo": "br"
+    },
+    {
+     "palavra": "coat",
+     "texto": "WIPED ON THE COAT",
+     "estilo": "vm",
+     "y": 330,
+     "tam": 100
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "soco",
+     "palavra": "coat"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The wound gets red. Then hot. Then it starts to smell."
+   ],
+   "bg": "enfermaria",
+   "luz": "esgoto",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "red",
+     "texto": "RED",
+     "estilo": "vm",
+     "x": 560
+    },
+    {
+     "palavra": "hot",
+     "texto": "HOT",
+     "estilo": "vm",
+     "x": 960
+    },
+    {
+     "palavra": "smell",
+     "texto": "SMELLY",
+     "estilo": "am",
+     "x": 1360
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GAS",
+     "palavra": "smell"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Doctors called the yellow stuff coming out laudable pus. They thought it was a good sign."
+   ],
+   "bg": "enfermaria",
+   "luz": "fria",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "laudable",
+     "texto": "\"LAUDABLE PUS\"",
+     "estilo": "am"
+    },
+    {
+     "palavra": "good",
+     "texto": "A GOOD SIGN!",
+     "estilo": "br",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "good"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|It was not a good sign."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "nojo",
+     "boca": "nojo",
+     "pose": "chora",
+     "x": 960,
+     "plano": "close"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Decades later, a Scottish doctor counted the dead. In big city hospitals, about four in ten amputation patients didn't survive."
+   ],
+   "bg": "enfermaria",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f3f5f",
+     "cabelo": "curto",
+     "cc": "#555",
+     "sob": "triste",
+     "boca": "triste",
+     "pose": "relogio",
+     "prop": "CADERNO",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "four",
+     "texto": "4 IN 10",
+     "estilo": "vm"
+    }
+   ],
+   "icones": [
+    {
+     "svg": "LAPIDE",
+     "palavra": "survive"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Rich patients, at home, on their kitchen tables, did much better.",
+    "|Being poor was basically a medical condition."
+   ],
+   "bg": "palacio",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#8e6b1f",
+     "cabelo": "careca",
+     "extra": [
+      "CARTOLA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "better",
+     "texto": "MUCH BETTER",
+     "estilo": "am"
+    },
+    {
+     "palavra": "condition",
+     "texto": "POOR = SICK",
+     "estilo": "pt",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "And if you think this only happened to poor men, let me tell you about Fanny Burney."
+   ],
+   "titulo": {
+    "num": "1811",
+    "nome": "THE LETTER"
+   },
+   "bg": "quarto",
+   "luz": "quente"
+  },
+  {
+   "falas": [
+    "Fanny Burney was a famous English novelist.",
+    "In 1811, in Paris, her doctors decided she needed surgery on her breast."
+   ],
+   "bg": "quarto",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "vestido",
+     "cor": "#6a4c93",
+     "cabelo": "coque",
+     "cc": "#3b2414",
+     "sob": "preoc",
+     "boca": "fechada",
+     "pose": "segura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "novelist",
+     "texto": "FAMOUS WRITER",
+     "estilo": "br"
+    },
+    {
+     "palavra": "paris",
+     "texto": "PARIS, 1811",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Her surgeon was Dominique Larrey. The chief surgeon of Napoleon's army."
+   ],
+   "bg": "quarto",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#1f3a6b",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "cintura",
+     "x": 640
+    },
+    {
+     "p": "custom",
+     "roupa": "vestido",
+     "cor": "#6a4c93",
+     "cabelo": "coque",
+     "cc": "#3b2414",
+     "sob": "preoc",
+     "boca": "o",
+     "x": 1280
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "napoleon",
+     "texto": "NAPOLEON'S SURGEON",
+     "estilo": "br",
+     "tam": 110
+    }
+   ]
+  },
+  {
+   "falas": [
+    "She was awake. They put a thin handkerchief over her face.",
+    "She could see the knife through it."
+   ],
+   "bg": "quarto",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "vestido",
+     "cor": "#6a4c93",
+     "cabelo": "coque",
+     "cc": "#3b2414",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "chora",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "awake",
+     "texto": "AWAKE",
+     "estilo": "vm"
+    },
+    {
+     "palavra": "knife",
+     "texto": "SHE SAW IT ALL",
+     "estilo": "br",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "knife"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The operation took about twenty minutes.",
+    "She later wrote that she screamed the entire time, and that for months she could not even talk about it."
+   ],
+   "bg": "quarto",
+   "luz": "noite",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#1f3a6b",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "sob": "bravo",
+     "boca": "fechada",
+     "pose": "relogio",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "twenty",
+     "texto": "20 MINUTES",
+     "estilo": "vm"
+    },
+    {
+     "palavra": "screamed",
+     "texto": "THE ENTIRE TIME",
+     "estilo": "br",
+     "y": 330
+    }
+   ],
+   "icones": [
+    {
+     "svg": "RELOGIO",
+     "palavra": "minutes"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "She survived. And months later, she wrote down every second of it in a letter to her sister."
+   ],
+   "bg": "quarto",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "vestido",
+     "cor": "#6a4c93",
+     "cabelo": "coque",
+     "cc": "#3b2414",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "PERGAMENA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "survived",
+     "texto": "SHE SURVIVED",
+     "estilo": "am"
+    },
+    {
+     "palavra": "letter",
+     "texto": "THE LETTER",
+     "estilo": "br",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "survived"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "That letter still exists. Historians still read it today.",
+    "|She lived another twenty-nine years. Tougher than all of us."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "dedo",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "twenty",
+     "texto": "+29 YEARS",
+     "estilo": "am",
+     "x": 1400
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Then came 1846."
+   ],
+   "titulo": {
+    "num": "1846",
+    "nome": "THE MIRACLE"
+   },
+   "bg": "boston",
+   "luz": "dourada"
+  },
+  {
+   "falas": [
+    "A year earlier, another dentist, Horace Wells, tried laughing gas in front of a room full of Harvard students."
+   ],
+   "bg": "boston",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a5a2a",
+     "cabelo": "topete",
+     "cc": "#3b2414",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "wells",
+     "texto": "HORACE WELLS",
+     "estilo": "br"
+    },
+    {
+     "palavra": "laughing",
+     "texto": "LAUGHING GAS",
+     "estilo": "am",
+     "y": 330
+    }
+   ],
+   "icones": [
+    {
+     "svg": "GAS",
+     "palavra": "gas"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Halfway through, the patient groaned. The crowd shouted humbug, and Wells was laughed out of the room."
+   ],
+   "bg": "boston",
+   "luz": "fria",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "bravo",
+     "boca": "aberta",
+     "pose": "aponta",
+     "x": 560,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a5a2a",
+     "cabelo": "topete",
+     "cc": "#3b2414",
+     "sob": "triste",
+     "boca": "triste",
+     "pose": "chora",
+     "x": 960,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#6b3a3a",
+     "cabelo": "curto",
+     "cc": "#222",
+     "sob": "bravo",
+     "boca": "aberta",
+     "pose": "aponta",
+     "x": 1360,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "humbug",
+     "texto": "HUMBUG!",
+     "estilo": "vm"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "humbug"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Laughing gas. Everyone laughed. Except Wells."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "ombros",
+     "x": 960,
+     "plano": "close"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "In Boston, a dentist named William Morton tried something new. Ether."
+   ],
+   "bg": "boston",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f4f4f",
+     "cabelo": "curto",
+     "cc": "#3b2414",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "VIDRO_SANG",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "morton",
+     "texto": "WILLIAM MORTON",
+     "estilo": "br"
+    },
+    {
+     "palavra": "ether",
+     "texto": "ETHER",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Ether was already famous. At parties, people sniffed it for fun.",
+    "They called them ether frolics."
+   ],
+   "bg": "taverna",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#6b3a3a",
+     "cabelo": "topete",
+     "cc": "#a0522d",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 560,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "vestido",
+     "cor": "#2e7d32",
+     "cabelo": "longo",
+     "cc": "#f2d060",
+     "sob": "surpreso",
+     "boca": "sorrisao",
+     "pose": "acena",
+     "x": 960,
+     "plano": "grupo"
+    },
+    {
+     "p": "SIGNORE",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 1360,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "parties",
+     "texto": "PARTY DRUG",
+     "estilo": "vm"
+    },
+    {
+     "palavra": "frolics",
+     "texto": "ETHER FROLICS",
+     "estilo": "am",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "frolics"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "On October sixteenth, in front of a crowd of doctors, Morton put a patient to sleep.",
+    "And a surgeon removed a tumour from his neck."
+   ],
+   "bg": "boston",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f4f4f",
+     "cabelo": "curto",
+     "cc": "#3b2414",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "segura",
+     "x": 640
+    },
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#b0a080",
+     "cabelo": "curto",
+     "cc": "#555",
+     "sob": "normal",
+     "boca": "fechada",
+     "pose": "baixo",
+     "x": 1280
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "october",
+     "texto": "OCTOBER 16, 1846",
+     "estilo": "br",
+     "tam": 110
+    },
+    {
+     "palavra": "sleep",
+     "texto": "ASLEEP",
+     "estilo": "am",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The patient woke up and said he had felt no pain."
+   ],
+   "bg": "boston",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#b0a080",
+     "cabelo": "curto",
+     "cc": "#555",
+     "sob": "surpreso",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "pain",
+     "texto": "NO PAIN!",
+     "estilo": "am"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "pain"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "The room went silent.",
+    "|A room full of surgeons. Speechless. Imagine that."
+   ],
+   "bg": "boston",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "SIGNORE",
+     "sob": "surpreso",
+     "boca": "o",
+     "x": 560,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "careca",
+     "sob": "surpreso",
+     "boca": "o",
+     "x": 960,
+     "plano": "grupo"
+    },
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#3b5b3b",
+     "cabelo": "curto",
+     "cc": "#222",
+     "sob": "surpreso",
+     "boca": "o",
+     "x": 1360,
+     "plano": "grupo"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "silent",
+     "texto": "...",
+     "estilo": "br"
+    },
+    {
+     "palavra": "speechless",
+     "texto": "SPEECHLESS",
+     "estilo": "pt",
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Two months later, the news reached London. And who did the first operation under ether in Britain?"
+   ],
+   "bg": "londres",
+   "luz": "fria",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#8a7a5a",
+     "cabelo": "baguncado",
+     "cc": "#3b2414",
+     "sob": "surpreso",
+     "boca": "aberta",
+     "pose": "relogio",
+     "prop": "PERGAMENA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "london",
+     "texto": "NEWS FROM AMERICA",
+     "estilo": "br",
+     "tam": 110
+    }
+   ],
+   "acao": "anda"
+  },
+  {
+   "falas": [
+    "Robert Liston. The fastest knife in London."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "prop": "FACA",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "liston",
+     "texto": "LISTON IS BACK",
+     "estilo": "am"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "treme",
+     "palavra": "fastest"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "He took off a leg in about half a minute.",
+    "The patient woke up and asked when they were going to start."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "camisa",
+     "cor": "#c9b38f",
+     "cabelo": "baguncado",
+     "cc": "#5a3a1e",
+     "sob": "duvida",
+     "boca": "o",
+     "pose": "ombros",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "half",
+     "texto": "30 SECONDS",
+     "estilo": "am"
+    },
+    {
+     "palavra": "start",
+     "texto": "\"WHEN DO WE START?\"",
+     "estilo": "br",
+     "y": 330,
+     "tam": 100
+    }
+   ],
+   "icones": [
+    {
+     "svg": "RELOGIO",
+     "palavra": "half"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|Same speed. Zero screaming."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "sorrisao",
+     "pose": "alto",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "zero"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Liston turned to the students and said: this Yankee dodge, gentlemen, beats mesmerism hollow."
+   ],
+   "bg": "teatro",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#5a2e1e",
+     "cabelo": "curto",
+     "cc": "#2b1d14",
+     "extra": [
+      "SUJEIRA"
+     ],
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "aponta",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "yankee",
+     "texto": "\"YANKEE DODGE\"",
+     "estilo": "am"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "In 1847, a Scottish doctor started using chloroform. A few years later, even Queen Victoria used it to give birth."
+   ],
+   "bg": "palacio",
+   "luz": "dourada",
+   "chars": [
+    {
+     "p": "REGINA",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "cintura",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "chloroform",
+     "texto": "CHLOROFORM",
+     "estilo": "br"
+    },
+    {
+     "palavra": "victoria",
+     "texto": "QUEEN VICTORIA",
+     "estilo": "am",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "victoria"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "|If it's good enough for the Queen, it's good enough for your leg."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "corte": "seco",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "dedo",
+     "x": 960,
+     "plano": "medio"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "A few decades later, Joseph Lister started cleaning wounds with carbolic acid.",
+    "And surgery finally stopped being a death sentence."
+   ],
+   "bg": "enfermaria",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "custom",
+     "roupa": "nobre",
+     "cor": "#2f3f5f",
+     "cabelo": "curto",
+     "cc": "#8a6a4a",
+     "extra": [
+      "BARBA"
+     ],
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "relogio",
+     "prop": "VIDRO_SANG",
+     "x": 960
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "lister",
+     "texto": "JOSEPH LISTER",
+     "estilo": "br"
+    },
+    {
+     "palavra": "cleaning",
+     "texto": "CLEAN WOUNDS!",
+     "estilo": "am",
+     "y": 330
+    }
+   ],
+   "fx": [
+    {
+     "tipo": "confete",
+     "palavra": "finally"
+    }
+   ]
+  },
+  {
+   "falas": [
+    "So next time you're nervous at the dentist, remember.",
+    "Nobody is going to hold you down. Nobody is going to time you.",
+    "|And nobody is wearing a coat made of other people."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "fechada",
+     "pose": "dedo",
+     "x": 960,
+     "plano": "medio"
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "dentist",
+     "texto": "THE DENTIST",
+     "estilo": "br",
+     "x": 1400
+    },
+    {
+     "palavra": "coat",
+     "texto": "NO BLOOD COAT",
+     "estilo": "vm",
+     "x": 1400,
+     "y": 330
+    }
+   ]
+  },
+  {
+   "falas": [
+    "Goodnight, round-headed citizens.",
+    "|Wash your hands."
+   ],
+   "bg": "escritorio",
+   "luz": "quente",
+   "chars": [
+    {
+     "p": "mr",
+     "sob": "convencido",
+     "boca": "sorriso",
+     "pose": "desculpa",
+     "x": 1300
+    }
+   ],
+   "etiquetas": [
+    {
+     "palavra": "wash",
+     "texto": "WASH YOUR HANDS",
+     "estilo": "am",
+     "x": 640
+    }
+   ]
+  }
+ ]
+}
