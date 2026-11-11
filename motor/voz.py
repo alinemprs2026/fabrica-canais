@@ -2,7 +2,8 @@
 # encurta pausas internas > 0,22 s para 0,14 s, corta sobras do início/fim e junta as frases
 # com 0,08 s (0,35 s antes das frases marcadas com "|"). Gera assets/voz.wav e work/tempos.json
 import asyncio, json, os, re, subprocess, edge_tts
-VOZ, RATE, MAXGAP, NOVO_GAP, GAP, GAP_PIADA = 'it-IT-DiegoNeural', '+10%', 0.22, 0.14, 0.08, 0.35
+import os as _os
+VOZ, RATE, MAXGAP, NOVO_GAP, GAP, GAP_PIADA = _os.environ.get('VOZ', 'it-IT-DiegoNeural'), _os.environ.get('RATE', '+10%'), 0.22, 0.14, 0.08, 0.35
 def ff(*a): return subprocess.run(['ffmpeg', '-y', '-hide_banner', *a], capture_output=True, text=True)
 def dur(f): return float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f], capture_output=True, text=True).stdout)
 def silencios(f):
