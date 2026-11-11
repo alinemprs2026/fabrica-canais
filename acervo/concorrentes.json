@@ -1,0 +1,138 @@
+{
+ "regra": "Só o nicho combinado: história/curiosidades em animação com humor/mascote para adultos (e corpo/saúde em desenho para adultos). NUNCA canal infantil, jogos ou 'made for kids'.",
+ "canais": [
+  {
+   "canal": "Sam O'Nella Academy",
+   "url": "https://www.youtube.com/channel/UC1DTYW241WD64ah5BFWn4JA",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "história bizarra com humor seco e mascote fixo; campeão do nicho"
+  },
+  {
+   "canal": "Dumb Doggo",
+   "url": "https://www.youtube.com/channel/UCopzq4NX3eYYPyw1VUi-8Xw",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "mascote em close na thumb, 'What It's Like To...'"
+  },
+  {
+   "canal": "Chat History",
+   "url": "https://www.youtube.com/channel/UCicVSNyM7PMXEzdoAsTB02w",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "piores trabalhos/curiosidades sujas da história, títulos com [NO AI]"
+  },
+  {
+   "canal": "Bernard",
+   "url": "https://www.youtube.com/channel/UC_FStSURaDad8-xo6jH1j4Q",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "formato 'Why It Sucks to Be...' na história"
+  },
+  {
+   "canal": "Barely Evolved",
+   "url": "https://www.youtube.com/channel/UCH59TmQhPOPhC3M17jCWpRQ",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "'pior época para nascer', vídeos raros que explodem"
+  },
+  {
+   "canal": "Lost Legacy",
+   "url": "https://www.youtube.com/channel/UC96yqt8xjtShTpgdoIo0Lqg",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "'Your Life As...' na história"
+  },
+  {
+   "canal": "Haroo",
+   "url": "https://www.youtube.com/channel/UCIvqICThwRWUq0WbNcn910w",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "curiosidades históricas animadas"
+  },
+  {
+   "canal": "Simple History",
+   "url": "https://www.youtube.com/channel/UC510QYlOlKNyhy_zdQxnGYw",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "história animada"
+  },
+  {
+   "canal": "Sideprojects",
+   "url": "https://www.youtube.com/channel/UC3Wn3dABlgESm8Bzn8Vamgg",
+   "idioma": "EN",
+   "papel": "referencia",
+   "motivo": "curiosidades históricas"
+  },
+  {
+   "canal": "Infonimados",
+   "url": "https://www.youtube.com/channel/UCE0edAKypUlvIpkMSv6Hd4w",
+   "idioma": "ES",
+   "papel": "referencia",
+   "motivo": "história animada em espanhol"
+  },
+  {
+   "canal": "Academia Play",
+   "url": "https://www.youtube.com/channel/UCv05qOuJ6Igbe-EyQibJgwQ",
+   "idioma": "ES",
+   "papel": "referencia",
+   "motivo": "história animada em espanhol"
+  },
+  {
+   "canal": "CuriosaMente",
+   "url": "https://www.youtube.com/channel/UCX16cLWl6dCjlZMgUBxgGkA",
+   "idioma": "ES",
+   "papel": "referencia-saude",
+   "motivo": "curiosidades e corpo humano em desenho, espanhol"
+  },
+  {
+   "canal": "Atlax™",
+   "url": "https://www.youtube.com/channel/UCcm7Bp70HIDjFaIO84rt7Sw",
+   "idioma": "ES",
+   "papel": "referencia",
+   "motivo": "'Por qué NO sobrevivirías como...' na história"
+  },
+  {
+   "canal": "stick figurist ES",
+   "url": "https://www.youtube.com/channel/UCS4AHSRNJlnBShB5yDbkchA",
+   "idioma": "ES",
+   "papel": "referencia",
+   "motivo": "'Por qué apesta ser...' bonecos palito"
+  },
+  {
+   "canal": "Mob_anima",
+   "url": "https://www.youtube.com/channel/UCC8UGhbtkPwJuRyaZXSat2Q",
+   "idioma": "ES",
+   "papel": "referencia",
+   "motivo": "'La vida de un ... es horrible' animado"
+  },
+  {
+   "canal": "boneco palito",
+   "url": "https://www.youtube.com/channel/UC0iDCrOpi92ev3_xgzqhfdg",
+   "idioma": "PT",
+   "papel": "referencia",
+   "motivo": "'POV: você é...' em português"
+  },
+  {
+   "canal": "Las Historias de Paco",
+   "url": "https://www.youtube.com/channel/UC2EFl_IbRzY13H6NgOBsWNw",
+   "idioma": "ES",
+   "papel": "anti-exemplo",
+   "motivo": "MESMA ideia (mascote prova piores trabalhos), posta ~2/dia e tem ~0 views"
+  },
+  {
+   "canal": "Destini di Ferro",
+   "url": "https://www.youtube.com/channel/UCMGvhJwwJ_693TQv8Q5oVYQ",
+   "idioma": "IT",
+   "papel": "anti-exemplo",
+   "motivo": "'perché era orribile essere' em italiano, volume alto e ~0 views"
+  },
+  {
+   "canal": "Storia e Mitologia Illustrate",
+   "url": "https://www.youtube.com/channel/UCCFD2I_EBPlwpeaZfX3egWw",
+   "idioma": "IT",
+   "papel": "anti-exemplo",
+   "motivo": "~60 vídeos/mês, mediana 4 mil"
+  }
+ ]
+}
