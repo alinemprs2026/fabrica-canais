@@ -20,6 +20,7 @@
  ],
  "poses": [
   "acena",
+  "agarra",
   "alto",
   "aponta",
   "baixo",
@@ -32,6 +33,7 @@
   "desculpa",
   "ombros",
   "relogio",
+  "rosto",
   "segura"
  ],
  "cabelos": [
@@ -60,7 +62,8 @@
   "CONCIATORE",
   "RE",
   "NORRIS",
-  "REGINA"
+  "REGINA",
+  "host"
  ],
  "objetos_na_mao_prop": [
   "XICARA",
@@ -80,7 +83,12 @@
   "TACA",
   "PERGAMENA",
   "BORSA",
-  "CANDELA"
+  "CANDELA",
+  "COPO",
+  "DIARIOP",
+  "PILLOLAP",
+  "TELEFONOP",
+  ""
  ],
  "na_cabeca_extra": [
   "CARTOLA",
@@ -113,7 +121,26 @@
   "TACA",
   "PERGAMENA",
   "LUPA",
-  "RELOGIO"
+  "RELOGIO",
+  "COPO",
+  "ACQUA",
+  "WC",
+  "SALE",
+  "CAFFE",
+  "RENE",
+  "VESCICA",
+  "DIARIO",
+  "LUCE",
+  "PANTOFOLE",
+  "PILLOLA",
+  "LUNA",
+  "ZUPPA",
+  "ANGURIA",
+  "CUSCINO",
+  "CALZA",
+  "TELEFONO",
+  "DIVANO",
+  "TERMO_FREDDO"
  ],
  "luzes": [
   "neutra",

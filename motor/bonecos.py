@@ -64,6 +64,8 @@ POSE = {  # (ângulos braço E), (ângulos braço D)
     "carrega": ((70, 40), (70, 40)),       # carrega dois baldes/potes
     "acena": ((14, 8), (140, 175)),
     "chora": ((40, -150), (40, -150)),     # mãos no rosto
+    "rosto": ((14, 8), (118, 92)),         # braço estendido na altura do rosto
+    "agarra": ((14, 8), (92, 96)),         # braço estendido na cintura (segurar)
 }
 
 def roupa_svg(tipo, cor):

@@ -17,6 +17,8 @@ DESENHOS = {"CACCA": (CACCA, "0 0 200 200"), "CACCA_BRANCA": (CACCA_BRANCA, "0 0
             "GAS": (GAS, "0 0 200 200"), "PODIO": (PODIO, "0 0 200 200"), "GOTA": (GOTA, "0 0 110 150"), "PIPI": (PIPI, "0 0 110 150"), "UVA": (UVA, "0 0 170 200"),
             "CORACAO": (CORACAO, "0 0 120 120"), "COROA": (COROA, "70 -40 100 70"), "BORSA": (BORSA, "-34 -26 68 60"), "CANDELA": (CANDELA, "-40 -80 80 84"),
             "TACA": (TACA, "-24 -46 48 56"), "PERGAMENA": (PERGAMENA, "-28 -40 56 60"), "LUPA": (LUPA, "-22 -44 46 54"), "RELOGIO": (RELOGIO, "-34 -66 68 76")}
+exec(open('work/desenhos_saude.py', encoding='utf-8').read())
+DESENHOS.update(SAUDE); globals().update(PROPS_SAUDE); SVG_NOMES += list(PROPS_SAUDE)
 SOBS, BOCAS, POSES = set(SOB), set(BOCA), set(POSE)
 LUZES = set(LUZ)
 def ok(v, validos, padrao): return v if v in validos else padrao
@@ -29,6 +31,11 @@ def personagem(c):
     prop = globals()[c["prop"]] if c.get("prop") in SVG_NOMES else ""
     p = c.get("p", "custom")
     if p == "mr": return mr(pose, sob, prop, boca)
+    if p == "host":   # apresentador(a) do canal: fala com a boca sincronizada (como o Mr. Squarington)
+        extra = "".join(globals()[e] for e in c.get("extra", []) if e in EXTRA_NOMES)
+        kw = dict(roupa=ok(c.get("roupa"), {"camisa", "terno", "vestido", "jaleco", "nobre"}, "camisa"), cor=c.get("cor", "#3a9a8a"),
+                  cabelo=ok(c.get("cabelo"), set(CABELO), "longo"), cor_cabelo=c.get("cc", "#3b2414"), extra_cabeca=extra)
+        return Pers(lambda pid: boneco(pid, pose=pose, sob=sob, boca=boca, prop=prop, **kw), mr=True, sobs=(sob, "normal"), pose=pose, prop=prop)
     if p in PRESETS: return PRESETS[p](sob=sob, boca=boca, pose=pose, prop=prop)
     extra = "".join(globals()[e] for e in c.get("extra", []) if e in EXTRA_NOMES)
     return bon(roupa=ok(c.get("roupa"), {"camisa", "terno", "vestido", "jaleco", "nobre"}, "camisa"), cor=c.get("cor", "#d97b37"),
@@ -91,7 +98,7 @@ for k, sc in enumerate(EP["cenas"]):
     S(cid, i0, i1, bg_ok(sc.get("bg")), ok(sc.get("luz"), LUZES, "quente"), chars, etqs, efx,
       corte=ok(sc.get("corte"), {"chicote", "seco", "nenhum"}, "chicote") if k else "nenhum",
       agua_y=sc.get("agua_y"), agua_cor=sc.get("agua_cor", "50,80,50"), blur=int(sc.get("desfoque", 0)), ex=ex, post=post,
-      fala=sc.get("fala", True))
+      fala=sc.get("fala", True), cameo=EP.get("cameo", True))
 
 # objetos automáticos por palavra também em inglês
 if EP.get("idioma", "it") == "en":
@@ -105,3 +112,7 @@ if EP.get("idioma", "it") == "en":
         (("wine", "poison", "drink"), TACA, "-24 -46 48 56"), (("dog", "dogs"), CANE, "0 0 200 200"), (("doctor", "doctors"), LUPA, "-22 -44 46 54"),
         (("died", "dead", "death", "grave"), LAPIDE_RIP, "0 0 200 200"), (("hours", "years", "time"), RELOGIO, "-34 -60 68 72"),
     ]
+
+# canal sem os objetos automáticos de história (ex.: saúde)
+if EP.get("icones_auto") is False:
+    ICONES = []
